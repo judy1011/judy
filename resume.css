@@ -1,0 +1,217 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  height: 100%;
+  display: block;
+  margin: 0;
+  font-family: 微軟正黑體;
+}
+
+/* 左側區塊ul的樣式設定 */
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* 超連結的字體設定 */
+a {
+  text-decoration: none;
+  color: #f1f0f2;
+  font-family: 微軟正黑體;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #8896bf;
+  font-size: 112%;
+}
+
+/* 左側區塊底的設定 */
+menu {
+  background-color: #424a59;
+  position: fixed;
+  height: 100vh;
+  width: 250px;
+  float: left;
+  margin: 0;
+}
+
+/* 左側區塊超連結文字間的設定 */
+nav {
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding-top: 30px;
+  line-height: 3;
+  text-align: left;
+}
+
+/* 右側區塊底的設定 */
+main {
+  width: 100vw;
+  padding-right: 3em;
+  background-color: #c5c8d9;
+  -moz-flex-grow: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  -moz-flex-shrink: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+
+/* MY RESUME 文字設定 */
+h1 {
+  text-align: left;
+  color: #fff;
+}
+
+/* 右側各區塊抬頭文字 */
+h2 {
+  text-align: left;
+  margin-left: 13em;
+}
+
+/* 右側區塊各項目抬頭文字 */
+h3 {
+  text-align: left;
+  text-decoration: underline;
+}
+
+/* 右側區塊各項目內容文字 */
+.sh4{
+  font-weight: normal;
+}
+
+/* 右側區塊的內容大框架 */
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+/* 圖片設定 */
+.pic {
+  width: 11.5em;
+  float: left;
+  margin-right: 2.2em;
+}
+
+.pic:hover {
+  transform: scale(1.02);
+  opacity: 0.8;
+}
+
+/* 個人資料內容設定 */
+.information{
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+}
+
+/* 個人資料右側標籤的框架位置設定 */
+.inf1{
+  margin-top: 1.5em;
+}
+
+/* 個人資料右側標籤的內容設定 */
+.information1{
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  background-color: #F2EEB3;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.information1:hover{
+  transform: scale(1.05);
+}
+
+/* 右側區塊的內容位置框架設定，不然會吃字 */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto 5em auto 23em;
+}
+
+/* 右側區塊的社團內容位置框架設定，專門for社團區塊的 */
+.flex-container-club {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 23em;
+}
+
+/* 右側區塊的社團內容文字不換行設定，專門for社團區塊的 */
+.flex-club {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 5em;
+}
+
+/* 社團區塊內容文字間的區塊間距 */
+.flex-container-club + .flex-container-club{
+  margin-top: 2em;
+}
+
+/* 社團區塊內容文字設定 */
+.word-club{
+  margin-top: 3.3em;
+  letter-spacing: .05em;
+  line-height: 1.6em;
+}
+
+/* 個人資料中文名設定 */
+.cName {
+  font-size: 1.4em;
+  font-weight: bolder;
+}
+
+/* 個人資料英文名設定 */
+.eName {
+  font-size: 1.3em;
+  font-family: Akaya Kanadaka;
+}
+
+/* 證照區塊的圖片外邊框設定 */
+.license {
+  height: 280px;
+  border: 2px solid #9295a6;
+  margin: auto auto 2em 2em;
+  padding: 10px;
+  float: left;
+  text-align: center;
+  flex-direction: row;
+}
+
+/* 證照區塊的圖片設定 */
+.license img {
+  width: 200px;
+}
+
+.license img:hover {
+  transform: scale(1.05);
+  opacity: 0.5;
+}
+
+/* 證照區塊的橫式圖片設定 */
+.license-img-sht{
+  margin-top: 3em;
+}
+
+/* 證照區塊的橫式圖片下方文字位置設定 */
+.license-img-sht-word{
+  margin-top: 4.2em;
+}
+
+/* 右側區塊的icon與文字間距 */
+.icon{
+  margin-right: 4px;
+}
+
+/* 左側icon與超連結文字的間距 */
+.iconMenu{
+  margin-right: 15px;
+}
